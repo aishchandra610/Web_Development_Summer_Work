@@ -1,4 +1,4 @@
-HTML (Day-1)
+<!-- HTML (Day-1) -->
 https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_1_HTML
 https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_2_HTML
 https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_3_HTML
@@ -6,7 +6,7 @@ https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_4_HTML
 
 
 
-CSS (Day-2)
+<!-- CSS (Day-2) -->
 https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_1_CSS
 https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_2_CSS
 https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_3_CSS
