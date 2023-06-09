@@ -149,6 +149,13 @@ button
     letter-spacing: 4%;
 }
 
+.feature-box-detail
+{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-items: center;
+}
 
 
 .feature-box-portion
