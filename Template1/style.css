@@ -1,0 +1,345 @@
+*
+{
+    margin: 0px;
+    padding: 0;
+    
+}
+    nav{
+    display: flex;
+    height: 64px;
+    
+    align-items: center;
+    font-family: 'Raleway Dots', cursive;
+background-color: black;
+color: white;
+width: 1329px;
+margin: 0;
+margin-top: 0px;
+border-radius: 0px;
+padding: 16px 60px 8px 50px;
+justify-content: space-between;
+font-size: 16px;
+
+
+    
+}
+nav p
+{
+    padding-left: 0px;
+}
+nav ul{
+    display: flex;
+    border: 1px black solid;
+    padding: 12px 16px ;
+    gap: 30px;
+    /* margin-left: 1067px; */
+    justify-content: space-between;
+}
+nav ul li
+{
+ padding-left: 22px;
+ padding-right: 22px;
+}
+.phone-detail
+{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: black;
+    color: white;
+    width: 1439px;
+
+}
+.phone-detail-phone
+{
+    margin-left: 193px;
+    margin-top: 193px;
+    font-size: 36px;
+    border: 1px solid black;
+    font-family: 'Raleway Dots', cursive;
+    display: flex;
+    
+
+}
+.phone-detail-image
+{
+    margin-top: 193px;
+    margin-left: 84px;
+}
+.phone-detail-text
+{
+    height: 72px;
+    width: 500px;
+    margin-left: 99.87px;
+    /* margin-right: 105px; */
+    margin-top: 362px;
+    border: 1px solid black;
+    font-family: 'Inconsolata', monospace;
+
+    
+}
+.phone-detail-text h2
+
+{
+    font-size: 36px;
+    font-family: 'Raleway Dots', cursive;
+
+}
+.phone-detail-text p{
+    font-size: 22px;
+    margin-top: 30px;
+    
+}
+/* .phone-detail-text .button */
+.button
+{
+    padding: 12px 20px 12px 18px;
+    border: solid 1px black;
+   
+    border-radius: 3px;
+    display: inline;
+    background-color: white;
+    color: grey;
+   
+}
+
+button
+{
+    margin-top: 30px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+
+
+}
+.text{
+    
+   background-color: black;
+    
+    color: white;
+    padding-top: 90.15px;
+    padding-bottom: 151px;
+    width: 1439px;
+    
+    
+}
+.text p
+{
+
+    display: inline-block;
+    font-size: 22px;
+    
+}
+.text-circle
+{
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 0px;
+}
+.text-fresh-air
+{
+    display: flex;
+    font-family: 'Raleway Dots', cursive;
+    margin-left: 961px;
+    word-spacing: 4%;
+    letter-spacing: 4%;
+}
+
+
+
+.feature-box-portion
+{
+    display: flex;
+    width: 1439px;
+}
+.feature-box{
+width: 33.3%;
+height: 230px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.feature-box img
+{ display: flex;
+    justify-content: center;
+}
+
+.tech-sound
+{
+    width: 1439px;
+    display: flex;
+    height: 800px;
+    background-color: black;
+    color: white;
+    /* line-height: 24px; */
+}
+
+.tech-sound-detail
+{
+    width: 33.3%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-sound-detail p,button{
+    margin-bottom: 24px;
+    font-family: 'Inconsolata', monospace;
+
+
+}
+.tech-sound-detail img{
+    width: 368px;
+    height: 370px;
+}
+h2{
+    font-family: 'Raleway Dots', cursive;
+}
+.dark-tone-airdobe
+{
+    display: flex;
+    width: 1439px;
+    height: 800px;
+
+}
+.dark-tone-airdobe-detail
+{
+    width: 33.3%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.dark-tone-airdobe-detail div :first-child
+{
+    font-size: 36px;
+    font-family: 'Raleway Dots', cursive;
+}
+.dark-tone-airdobe-detail-heading
+{
+    font-size: 22px;
+    font-family: 'Inconsolata', monospace;
+}
+.dark-tone-airdobe-detail p{
+    padding-bottom: 24px;
+}
+#dark-button button
+{
+    text-decoration: none;
+    border: none;
+    
+    cursor: pointer;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    background-color:none;
+    color: white;
+    
+}
+#dark-button
+{
+    background-color: black;
+    font-size: 22px;
+}
+.section-about-us
+{
+    height: 755px;
+    width: 1439px;
+    
+}
+.section-about-us
+{
+display: flex;
+background-color:#EAEDEA;
+}
+.section-about-us-text h2{
+    font-family: 'Raleway Dots', cursive;
+}
+.section-about-us-text p{
+    font-family: 'Inconsolata', monospace;
+}
+.section-about-us-img 
+{
+    margin-top: 111px;
+}
+.aside
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer{
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    width: 1439px;
+    background-color: #D9D9D9;
+    height: 396px;
+}
+footer div ul li h3{
+    font-family: 'Raleway Dots', cursive;
+    margin-bottom: 32px;
+}
+.footer-section
+{
+    display: flex;
+    width: 61%;
+    margin-top: 70px;
+
+}
+.footer-section ul{
+    width: 25%;
+    margin-left: 53px;
+}
+.footer-section ul li{
+    padding: 16px 16px;
+}
+.input-detail
+{
+    display: flex;
+}
+/* .footer-button
+{
+    width: 107px;
+    height: 46px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+
+} */
+label{
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+.footer-email
+{
+    width: 265px;
+    height: 46px;
+    margin-top: 30px;
+    border:1px solid black;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+    color: grey;
+    border-radius: 2px;
+}
+.footer-email label{
+align-items: center;
+}
+.footer-button
+{
+    width: 107px;
+    height: 46px;
+}
