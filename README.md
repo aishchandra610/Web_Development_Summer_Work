@@ -24,11 +24,11 @@ https://aishchandra610.github.io/Web_Development_Summer_Work/Template1
 
 TAILWINDCSS (DAY-4)
 
-https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_1_TAILWIND/index.html
-https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_2_TAILWIND/index.html
-https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_3_TAILWIND/index.html
-https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_4_TAILWIND/index.html
-https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_5_TAILWIND/index.html
-https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_6_TAILWIND/index.html
+https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_1_TAILWIND/dist/index.html
+https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_2_TAILWIND/dist/index.html
+https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_3_TAILWIND/dist/index.html
+https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_4_TAILWIND/dist/index.html
+https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_5_TAILWIND/dist/index.html
+https://aishchandra610.github.io/Web_Development_Summer_Work/Assignment_6_TAILWIND/dist/index.html
 
 
