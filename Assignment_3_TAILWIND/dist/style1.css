@@ -1,0 +1,10 @@
+/* h1{
+    background: url(../images/logo.png)
+    no-repeat;
+} */
+img[src="images/bottom-image.png"]
+  {
+    margin-bottom: 0;
+    margin-top: 200mm;
+    background-image:no-repeat;
+  }
