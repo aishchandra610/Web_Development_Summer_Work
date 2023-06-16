@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <ol>
+        <li>Add A button which says 'Display Details'</li>
+        <li>Add a paragrph with any content of your choice </li>
+      </ol>
+      <hr>
+      <button class="btn btn-primary" (click)="onToggle()">Display Details</button>
+      <p *ngIf="showSecret">Secret Password= tuna</p>
+      <div *ngFor="let logItem of log"
+      [ngStyle]="{backgroundColor:logItem>=5?'blue':'transparent'}"
+      [ngClass]="{'white':logItem>=5}">{{ logItem }}</div>
+    </div>
+  </div>
+</div>
