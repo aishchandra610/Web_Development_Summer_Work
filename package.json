@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "node": "^20.2.0",
-    "require": "^0.4.4"
+    "require": "^0.4.4",
+    "rxjs": "^6.6.7",
+    "rxjs-compat": "^6.6.7"
   }
 }
