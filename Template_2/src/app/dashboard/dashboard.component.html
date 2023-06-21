@@ -25,14 +25,14 @@
     </div>
     <div class="detail">
         <div class="detail-first-row">
-            <app-detail></app-detail>
-            <app-detail></app-detail>
-            <app-detail></app-detail>
+            <app-detail [heading]="textHead" [text]="textPara" [cost]="textCost" *ngFor="let img of contentOne"></app-detail>
+            <!-- <app-detail></app-detail>
+            <app-detail></app-detail> -->
         </div>
         <div class="detail-sec-row">
-            <app-detail></app-detail>
-            <app-detail></app-detail>
-            <app-detail></app-detail>
+          <app-detail [heading]="textHead" [text]="textPara" [cost]="textCost" *ngFor="let img of contentOne"></app-detail>
+            <!-- <app-detail></app-detail>
+            <app-detail></app-detail> -->
         </div>
     </div>
   </div>

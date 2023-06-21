@@ -24,7 +24,7 @@ export class DashboardComponent {
   };
   textHead="Stir Fry Pasta";
   textPara="The in-house pasta and chicken by chef Moose";
-  textCost="N1000";
+  textCost="N1000.00";
   contentOne=["img1","img2","img3"];
   contentTwo=["img4","img5","img6"]
 

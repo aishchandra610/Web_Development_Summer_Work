@@ -1,0 +1,26 @@
+.detail-box
+{
+    width: 200px;
+    height: auto;
+    border: 1px solid whitesmoke;
+    margin: 40px;
+    /* background-color: whitesmoke; */
+    border-radius: 6px;
+    justify-content: center;
+    display: flex;
+}
+
+.detail-info
+{
+    display: flex;
+     
+}
+.detail-info-cart
+{
+    color: limegreen;
+    margin: 5px;
+}
+.detail-info-cost
+{
+    margin: 5px;
+}

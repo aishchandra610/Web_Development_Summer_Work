@@ -22,6 +22,7 @@ const appRoute:Routes=[
   },
   {path:'Login',component:LoginComponent},
   {path:'Register',component:RegisterComponent},
+  {path:'Dashboard',component:DashboardComponent}
 
 ]
 @NgModule({
