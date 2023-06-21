@@ -5,18 +5,40 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { InputComponent } from './input/input.component';
 import { ButtonComponent } from './button/button.component';
-import { ButtonRegisterComponent } from './button-register/button-register.component';
 
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+// import { AppRoutingModule } from './app-routing.module';
+import {Routes,RouterModule} from "@angular/router";
+import { DetailComponent } from './detail/detail.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { AsidebuttonComponent } from './asidebutton/asidebutton.component';
+
+const appRoute:Routes=[
+  {
+    path: "",
+    redirectTo: "Login",
+    pathMatch: "full",
+  },
+  {path:'Login',component:LoginComponent},
+  {path:'Register',component:RegisterComponent},
+
+]
 @NgModule({
   declarations: [
     AppComponent,
     InputComponent,
     ButtonComponent,
-    ButtonRegisterComponent,
+    LoginComponent,
+    RegisterComponent,
+    DetailComponent,
+    DashboardComponent,
+    AsidebuttonComponent,
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(appRoute)
   ],
   providers: [],
   bootstrap: [AppComponent]
