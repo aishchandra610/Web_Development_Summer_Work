@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-asidebutton',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./asidebutton.component.css']
 })
 export class AsidebuttonComponent {
+@Input() data;
 
 }

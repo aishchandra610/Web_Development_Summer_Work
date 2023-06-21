@@ -1,0 +1,10 @@
+.asidebutton
+{
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
