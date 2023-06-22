@@ -1,15 +1,18 @@
 <div class="detail-box">
   <div class="detail-box-component">
-    <div>
-      <img src="" alt="" />
+    <div class="detail-box-component-image">
+      <img src="{{dish.imgPath}}" alt="" />
     </div>
-    <div>
-      <h3>{{ heading }}</h3>
-      <p>{{ text }}</p>
-    </div>
+    <div class="detail-box-component-text">
+      <h3>{{ dish.name }}</h3>
+      </div>
+      <div class="detail-box-component-text"><p>{{ dish.description }}</p></div>
+      
+   
     <div class="detail-info">
-      <div class="detail-info-cost">{{ cost }}</div>
+      <div class="detail-info-cost"><b>{{ dish.price }}</b> </div>
       <div class="detail-info-cart">Add to cart</div>
     </div>
   </div>
 </div>
+

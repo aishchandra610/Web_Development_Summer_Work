@@ -1,4 +1,7 @@
-
+*
+{
+    margin: 0px;
+}
 .login
 {
     width: 100%;
@@ -13,6 +16,8 @@ img{
 {
     width: 50%;
     height: 100%;
+    /* display: grid; */
+    /* opacity: 3; */
 }
 .login-text
 {
@@ -25,12 +30,14 @@ img{
 {
     display: flex;
     justify-content: center;
+    margin: 50px;
 }
 
 .login-list
 {
     display: flex;
     justify-content: space-between;
+    padding: 30px;
 }
 li
 {

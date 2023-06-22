@@ -1,13 +1,27 @@
+
 .detail-box
 {
     width: 200px;
     height: auto;
-    border: 1px solid whitesmoke;
-    margin: 40px;
+    border: 0.3px solid whitesmoke;
+    padding: 40px;
+    margin: 10px;
     /* background-color: whitesmoke; */
-    border-radius: 6px;
+    border-radius: 10px;
     justify-content: center;
     display: flex;
+    background-color: white;
+}
+.detail-box-component-image
+{
+    display: flex;
+    justify-content: center;
+}
+.detail-box-component-text
+{
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
 }
 
 .detail-info

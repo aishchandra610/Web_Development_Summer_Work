@@ -13,6 +13,7 @@ import {Routes,RouterModule} from "@angular/router";
 import { DetailComponent } from './detail/detail.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AsidebuttonComponent } from './asidebutton/asidebutton.component';
+import { ItemcountComponent } from './itemcount/itemcount.component';
 
 const appRoute:Routes=[
   {
@@ -35,6 +36,7 @@ const appRoute:Routes=[
     DetailComponent,
     DashboardComponent,
     AsidebuttonComponent,
+    ItemcountComponent,
   ],
   imports: [
     BrowserModule,

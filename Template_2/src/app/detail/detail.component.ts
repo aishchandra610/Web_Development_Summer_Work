@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./detail.component.css']
 })
 export class DetailComponent {
-@Input() heading:string;
-@Input() text:string;
-@Input() cost:string;
+@Input() dish:any;
+
 }

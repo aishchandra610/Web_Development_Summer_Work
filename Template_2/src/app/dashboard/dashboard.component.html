@@ -1,7 +1,7 @@
 <div class="dashboard">
   <div class="dashboard-aside">
     <div class="dashboard-aside-heading">
-      <img src="../../assets/images/Vector.png" alt="" />
+      <img src="../../assets/images/logo.png" alt="" />
       <h2 >Lilies</h2>
     </div>
     <div class="aside-button">
@@ -20,20 +20,15 @@
        <p>What delicious meal are you craving today?</p> 
         </div>
         <div class="dashboard-content-heading-image">
-            <img src="../../assets/images/40w 1.png" alt="">
+            <img src="../../assets/images/profile-image.png" alt="">
         </div>
     </div>
     <div class="detail">
         <div class="detail-first-row">
-            <app-detail [heading]="textHead" [text]="textPara" [cost]="textCost" *ngFor="let img of contentOne"></app-detail>
-            <!-- <app-detail></app-detail>
-            <app-detail></app-detail> -->
+            <app-detail *ngFor="let dish of dishArray" [dish]="dish"></app-detail>
+           
         </div>
-        <div class="detail-sec-row">
-          <app-detail [heading]="textHead" [text]="textPara" [cost]="textCost" *ngFor="let img of contentOne"></app-detail>
-            <!-- <app-detail></app-detail>
-            <app-detail></app-detail> -->
-        </div>
+        
     </div>
   </div>
 </div>

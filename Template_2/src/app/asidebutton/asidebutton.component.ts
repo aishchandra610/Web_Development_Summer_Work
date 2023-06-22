@@ -6,6 +6,6 @@ import { Component,Input } from '@angular/core';
   styleUrls: ['./asidebutton.component.css']
 })
 export class AsidebuttonComponent {
-@Input() data;
+@Input() data:any;
 
 }
