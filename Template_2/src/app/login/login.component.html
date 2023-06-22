@@ -1,31 +1,32 @@
 <div class="login">
-    <div class="login-image">
-      <img src="assets/images/login-image.png" alt=""  />
-      
-    </div>
-    <div class="login-text">
+  <div class="login-image">
+    <img src="assets/images/login-image.png" alt="" />
+    <img src="assets/images/shade.png" alt="" />
+  </div>
+  <div class="login-text">
+    <div>
+      <div class="login-text-heading">
+        <h2>Welcome Back!</h2>
+      </div>
+
+      <div class="login-detail">
+        <div class="login-details">
+          <app-input [textMessage]="inputEmail"></app-input>
+          <app-input [textMessage]="inputPassword"></app-input>
+          <br />
+          <app-button
+            [buttonText]="loginButton"
+            (click)="navigateToDashboardPage()"
+          ></app-button>
+        </div>
+      </div>
       <div>
-        <div class="login-text-heading">
-          <h2>Welcome Back!</h2>
-        </div>
-  
-        <div class="login-detail">
-          <div class="login-details">
-            <app-input [textMessage]="inputEmail"></app-input>
-            <app-input [textMessage]="inputPassword"></app-input>
-            <br />
-      <app-button [buttonText]="loginButton" (click)="navigateToDashboardPage()"></app-button>
-          </div>
-        </div>
-        <div>
-          <ul type="none" class="login-list">
-            <li (click)="navigateToRegisterPage()">Create an account</li>
-            <li>Forgot Passoword</li>
-          </ul>
-        </div>
-  
-        
+        <ul type="none" class="login-list">
+          <li (click)="navigateToRegisterPage()">Create an account</li>
+          <li>Forgot Passoword</li>
+        </ul>
       </div>
     </div>
   </div>
-  <!-- <router-outlet></router-outlet> -->
+</div>
+

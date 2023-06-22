@@ -1,8 +1,15 @@
 <div class="asidebutton">
+  <div class="asidebutton-text">
     <div class="asidebutton-img">
-      <img src="{{data.image}}" alt="">  
+      <img src="{{ data.image }}" alt="" />
     </div>
-    <div class="asidebutton-text" >
-        {{data.text}}
+    <div class="asidebutton-text" ng-init="">
+      {{ data.text }}
     </div>
+  </div>
+  <div class="asidebutton-itemcount-box">
+    <div class="asidebutton-itemcount">
+      <app-itemcount [dataCount]="[data.itemOrder]"></app-itemcount>
+    </div>
+  </div>
 </div>

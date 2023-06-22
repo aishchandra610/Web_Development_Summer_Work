@@ -1,15 +1,27 @@
-.asidebutton
-{
-    width: 250px;
-    height: 50px;
-    /* border: 1px solid rgb(146, 139, 139); */
-    border-radius: 10px;
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    color: grey;
+.asidebutton {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
 }
-.asidebutton-text
-{
-    padding: 10px;
+.asidebutton-text {
+  padding: 10px;
+}
+.asidebutton:hover {
+  background-color: rgb(243, 240, 240);
+  border: 0.1px solid rgb(243, 240, 240);
+  z-index: 1px;
+}
+.asidebutton-text {
+  display: flex;
+}
+.asidebutton-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

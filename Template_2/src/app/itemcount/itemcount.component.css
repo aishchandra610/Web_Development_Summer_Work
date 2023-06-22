@@ -1,7 +1,10 @@
-.itemcount
-{
-    width: 3px;
-    height: 3px;
-    border-radius: 2px;
-    background-color: green;
+.itemcount {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  background-color: limegreen;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

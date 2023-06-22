@@ -1,9 +1,9 @@
-input{
-    width: 500px;
-    height: 77px;
-    margin: 6px 0px;
-    border-radius: 4px;
-    text-decoration: none;
-    /* border-color: rgba(251, 221, 187, 0.51) 1px solid;*/
-    border: 1px solid #FBDDBB;
+input {
+  width: 500px;
+  height: 77px;
+  margin: 6px 0px;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 1px solid #fbddbb;
+  padding: 10px;
 }

@@ -1,9 +1,11 @@
-button{
-    background-color:black;
-    color: #FBDDBB;
-    width: 500px;
-    height: 77px;
-    font-size: 21px;
-    border-radius: 6px;
-    
+button {
+  background-color: black;
+  color: #fbddbb;
+  width: 500px;
+  height: 77px;
+  font-size: 21px;
+  border-radius: 6px;
+}
+.button {
+  padding: 10px;
 }

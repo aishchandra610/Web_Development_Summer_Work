@@ -1,34 +1,32 @@
-<div class="dashboard" >
+<div class="dashboard">
   <div class="dashboard-aside">
     <div class="dashboard-aside-heading">
       <img src="../../assets/images/logo.png" alt="" />
-      <h2 >Lilies</h2>
+      <h2>Lilies</h2>
     </div>
     <div class="aside-button">
-    <div >
-        <app-asidebutton [data]="dataOne" ></app-asidebutton>
+      <div>
+        <app-asidebutton [data]="dataOne"></app-asidebutton>
         <app-asidebutton [data]="dataTwo"></app-asidebutton>
         <app-asidebutton [data]="dataThree"></app-asidebutton>
         <app-asidebutton [data]="dataFour"></app-asidebutton>
-    </div>
+      </div>
     </div>
   </div>
   <div class="dashboard-content">
     <div class="dashboard-content-heading">
-        <div class="dashboard-content-heading-text">
-        <h2>    Good morning, Oghenevwede!</h2>
-       <p>What delicious meal are you craving today?</p> 
-        </div>
-        <div class="dashboard-content-heading-image">
-            <img src="../../assets/images/profile-image.png" alt="">
-        </div>
+      <div class="dashboard-content-heading-text">
+        <h2>Good morning, Oghenevwede!</h2>
+        <p>What delicious meal are you craving today?</p>
+      </div>
+      <div class="dashboard-content-heading-image">
+        <img src="../../assets/images/profile-image.png" alt="" />
+      </div>
     </div>
     <div class="detail">
-        <div class="detail-first-row">
-            <app-detail *ngFor="let dish of dishArray" [dish]="dish"></app-detail>
-           
-        </div>
-        
+      <div class="detail-first-row">
+        <app-detail *ngFor="let dish of dishArray" [dish]="dish"></app-detail>
+      </div>
     </div>
   </div>
 </div>
