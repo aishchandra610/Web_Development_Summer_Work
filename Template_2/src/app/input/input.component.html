@@ -1,5 +1,13 @@
 <div class="input">
   <div class="input-text">
-    <input type="text" placeholder="{{ textMessage }}" />
+    <input type="{{ texttype }}" placeholder="{{ textMessage }}" />
+    <!-- <app-showbutton></app-showbutton> /> -->
+
+    <div class="input-show">
+      <app-showbutton
+        *ngIf="id === 'key'"
+        (click)="showPassword(count)"
+      ></app-showbutton>
+    </div>
   </div>
 </div>

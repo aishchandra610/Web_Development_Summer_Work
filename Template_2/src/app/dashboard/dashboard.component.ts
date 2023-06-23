@@ -6,26 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.css'],
 })
 export class DashboardComponent {
-  dataOne = {
-    image: 'assets/icons/icon1.png',
-    text: 'Dashboard',
-    itemOrder: '',
-  };
-  dataTwo = {
-    image: 'assets/icons/icon2.png',
-    text: 'Your Profile',
-    itemOrder: '',
-  };
-  dataThree = {
-    image: 'assets/icons/icon3.png',
-    text: 'Orders',
-    itemOrder: '6',
-  };
-  dataFour = {
-    image: 'assets/icons/icon4.png',
-    text: 'Your Cart',
-    itemOrder: '6',
-  };
+  dataArray: any[] = [
+    {
+      image: 'assets/icons/icon1.png',
+      text: 'Dashboard',
+      itemOrder: '',
+    },
+    {
+      image: 'assets/icons/icon2.png',
+      text: 'Your Profile',
+      itemOrder: '',
+    },
+    {
+      image: 'assets/icons/icon3.png',
+      text: 'Orders',
+      itemOrder: '6',
+    },
+    {
+      image: 'assets/icons/icon4.png',
+      text: 'Your Cart',
+      itemOrder: '6',
+    },
+  ];
 
   dishArray: any[] = [
     {

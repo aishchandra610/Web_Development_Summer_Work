@@ -11,8 +11,18 @@
 
       <div class="login-detail">
         <div class="login-details">
-          <app-input [textMessage]="inputEmail"></app-input>
-          <app-input [textMessage]="inputPassword"></app-input>
+          <app-input
+            [textMessage]="inputEmail"
+            [texttype]="text"
+            [id]="notcheck"
+            [count]="countnumber"
+          ></app-input>
+          <app-input
+            [textMessage]="inputPassword"
+            [texttype]="password"
+            [id]="check"
+            [count]="countnumber"
+          ></app-input>
           <br />
           <app-button
             [buttonText]="loginButton"
@@ -29,4 +39,3 @@
     </div>
   </div>
 </div>
-

@@ -15,9 +15,21 @@
 
       <div class="register-detail">
         <div class="register-details">
-          <app-input [textMessage]="inputName"></app-input>
-          <app-input [textMessage]="inputEmail"></app-input>
-          <app-input [textMessage]="inputPassword"></app-input>
+          <app-input
+            [textMessage]="inputName"
+            [id]="notcheck"
+            [count]="countnumber"
+          ></app-input>
+          <app-input
+            [textMessage]="inputEmail"
+            [id]="notcheck"
+            [count]="countnumber"
+          ></app-input>
+          <app-input
+            [textMessage]="inputPassword"
+            [id]="check"
+            [count]="countnumber"
+          ></app-input>
 
           <br />
           <app-button
@@ -27,7 +39,9 @@
         </div>
       </div>
 
-      <div class="register-text-info">Already have an account.<b>LOGIN</b></div>
+      <div class="register-text-info" (click)="navigateToLoginPage()">
+        Already have an account.<b>LOGIN</b>
+      </div>
     </div>
   </div>
 </div>

@@ -11,6 +11,11 @@ export class LoginComponent {
   inputEmail: string = 'Your Email address';
   inputPassword: string = 'Your Password';
   loginButton: string = 'LOGIN';
+  text: string = 'text';
+  password: string = 'password';
+  check: string = 'key';
+  notcheck: string = 'notakey';
+  countnumber: number = 0;
   navigateToRegisterPage() {
     this.router.navigate(['Register']);
   }

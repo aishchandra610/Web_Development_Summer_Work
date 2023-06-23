@@ -34,4 +34,5 @@ img {
   padding: 30px;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }

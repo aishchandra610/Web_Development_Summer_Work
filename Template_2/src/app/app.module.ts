@@ -13,6 +13,7 @@ import { DetailComponent } from './detail/detail.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AsidebuttonComponent } from './asidebutton/asidebutton.component';
 import { ItemcountComponent } from './itemcount/itemcount.component';
+import { ShowbuttonComponent } from './showbutton/showbutton.component';
 
 const appRoute: Routes = [
   {
@@ -35,6 +36,7 @@ const appRoute: Routes = [
     DashboardComponent,
     AsidebuttonComponent,
     ItemcountComponent,
+    ShowbuttonComponent,
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(appRoute)],
   providers: [],

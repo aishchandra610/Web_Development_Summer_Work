@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class AsidebuttonComponent {
   @Input() data: any;
+  check: any;
 }

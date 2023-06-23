@@ -5,7 +5,9 @@ button {
   height: 77px;
   font-size: 21px;
   border-radius: 6px;
+  cursor: pointer;
 }
 .button {
   padding: 10px;
+  cursor: pointer;
 }

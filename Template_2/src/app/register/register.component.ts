@@ -12,7 +12,13 @@ export class RegisterComponent {
   inputName: string = 'Your First Name';
   inputEmail: string = 'Your Email address';
   inputPassword: string = 'Your Password';
+  check: string = 'key';
+  notcheck: string = 'notakey';
+  countnumber: number = 0;
   navigateToDashboardPage() {
     this.router.navigate(['Dashboard']);
+  }
+  navigateToLoginPage() {
+    this.router.navigate(['Login']);
   }
 }

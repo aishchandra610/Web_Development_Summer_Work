@@ -1,9 +1,23 @@
 input {
+  text-decoration: none;
+  border: 0px white;
+  outline: 0;
+  cursor: pointer;
+}
+.input-text {
+  display: flex;
+  justify-content: space-between;
   width: 500px;
   height: 77px;
-  margin: 6px 0px;
-  border-radius: 4px;
-  text-decoration: none;
   border: 1px solid #fbddbb;
+  border-radius: 4px;
+  margin: 6px 0px;
   padding: 10px;
+}
+.input-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 3px;
+  cursor: pointer;
 }

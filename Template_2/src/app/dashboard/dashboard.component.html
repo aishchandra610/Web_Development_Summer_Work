@@ -6,10 +6,10 @@
     </div>
     <div class="aside-button">
       <div>
-        <app-asidebutton [data]="dataOne"></app-asidebutton>
-        <app-asidebutton [data]="dataTwo"></app-asidebutton>
-        <app-asidebutton [data]="dataThree"></app-asidebutton>
-        <app-asidebutton [data]="dataFour"></app-asidebutton>
+        <app-asidebutton
+          *ngFor="let dataobject of dataArray"
+          [data]="dataobject"
+        ></app-asidebutton>
       </div>
     </div>
   </div>
