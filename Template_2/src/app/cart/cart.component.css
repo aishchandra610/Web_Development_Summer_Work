@@ -1,0 +1,35 @@
+.cart{
+    display: float;
+    
+}
+.cart-box
+{
+    width: 45%;
+    height: 100vh;
+    border: 1px solid black;
+    float: right;
+   
+
+}
+.cart-box-main
+{
+    
+}
+.cart-box-img
+{
+    width: 100%;
+   margin-top: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.cart-box-img img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.cart-box-img-section
+{
+    display: flex;
+    justify-content: center;
+}

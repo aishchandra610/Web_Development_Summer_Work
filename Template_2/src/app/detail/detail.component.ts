@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-detail',
   templateUrl: './detail.component.html',
@@ -7,4 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 export class DetailComponent {
   @Input() dish: any;
+  constructor(private router: Router) {}
+  navigateToCart()
+  {
+    this.router.navigate(['Cart']);
+  }
 }

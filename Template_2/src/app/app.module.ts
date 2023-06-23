@@ -14,6 +14,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AsidebuttonComponent } from './asidebutton/asidebutton.component';
 import { ItemcountComponent } from './itemcount/itemcount.component';
 import { ShowbuttonComponent } from './showbutton/showbutton.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { CartComponent } from './cart/cart.component';
 
 const appRoute: Routes = [
   {
@@ -24,6 +26,8 @@ const appRoute: Routes = [
   { path: 'Login', component: LoginComponent },
   { path: 'Register', component: RegisterComponent },
   { path: 'Dashboard', component: DashboardComponent },
+  {path:'Checkout',component:CheckoutComponent},
+  {path:'Cart',component:CartComponent},
 ];
 @NgModule({
   declarations: [
@@ -37,6 +41,9 @@ const appRoute: Routes = [
     AsidebuttonComponent,
     ItemcountComponent,
     ShowbuttonComponent,
+    CheckoutComponent,
+    CartComponent,
+    
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(appRoute)],
   providers: [],

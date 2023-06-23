@@ -19,6 +19,10 @@
   display: flex;
   justify-content: center;
 }
+.detail-info-cart
+{
+  cursor: pointer;
+}
 
 .detail-info {
   display: flex;

@@ -1,17 +1,21 @@
+
 input {
   text-decoration: none;
   border: 0px white;
   outline: 0;
   cursor: pointer;
+ 
 }
 .input-text {
   display: flex;
   justify-content: space-between;
-  width: 500px;
-  height: 77px;
+  /* width: 500px; */
+  width: 350px;
+  height: 50px;
   border: 1px solid #fbddbb;
   border-radius: 4px;
-  margin: 6px 0px;
+ 
+  margin: 30px;
   padding: 10px;
 }
 .input-show {

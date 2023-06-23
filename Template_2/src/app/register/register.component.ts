@@ -15,6 +15,8 @@ export class RegisterComponent {
   check: string = 'key';
   notcheck: string = 'notakey';
   countnumber: number = 0;
+  text: string = 'text';
+  password: string = 'password';
   navigateToDashboardPage() {
     this.router.navigate(['Dashboard']);
   }

@@ -1,0 +1,23 @@
+*
+{
+    
+    object-fit: cover;
+    overflow-y: hidden;
+}
+.checkout-heading
+{
+    font-size: 22px;
+    margin: 10px 40px;
+}
+h2{
+    font-size: 22px;
+    margin-left: 40px;
+}
+.checkout
+{
+    width: 45%;
+    height: 100vh;
+    padding: 10px;
+    
+    object-fit: cover;
+}
