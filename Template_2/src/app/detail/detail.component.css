@@ -38,3 +38,6 @@
   border: 1px rgb(243, 240, 240);
   background-color: rgb(243, 240, 240);
 }
+.hide{
+  display: none;
+}

@@ -1,0 +1,42 @@
+.cartinfo-main
+{
+    width: 100%;
+}
+table{
+    width: 100%;
+    padding: 10px 20px;
+}
+.td-img
+{
+    padding-left: 10px;
+    width: 30%;
+}
+.td-info{
+    padding-left: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.td-info-text
+{
+    width: 100%;
+}
+.td-item
+{
+    display: flex;
+    width: 100%;
+}
+
+.td-quantity
+{
+    width: 10%;
+}
+.td-price
+{
+    width: 20%;
+}
+.td-totalprice
+{
+    width: 20%;
+}

@@ -1,0 +1,22 @@
+<div class="cartinfo-main">
+    <table>
+      <tr>
+        <td class="td-item">
+          <div class="td-img">
+            <img src="assets/images/dish-image1.png" alt="" />
+          </div>
+          <div class="td-info">
+            <div class="td-info-text">
+              <div><b>Stir Fry Name</b></div>
+              <div style="color: red">Remove</div>
+            </div>
+          </div>
+        </td>
+        <td class="td-quantity"><b>3</b></td>
+        <td class="td-price"><b>N10000</b></td>
+        <td class="td-totalprice" style="color: green;" *ngIf="status==='Delivered'"><b>{{status}}</b></td>
+        <td class="td-totalprice" style="color: red;" *ngIf="status==='Cooking'"><b>{{status}}</b></td>
+      </tr>
+    </table>
+  </div>
+  

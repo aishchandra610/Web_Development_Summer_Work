@@ -1,4 +1,4 @@
-<div class="asidebutton">
+<div class="asidebutton" (click)="navigateToRoute(data.route)">
   <div class="asidebutton-text">
     <div class="asidebutton-img">
       <img src="{{ data.image }}" alt="" />
@@ -12,6 +12,7 @@
       <app-itemcount
         [dataCount]="[data.itemOrder]"
         *ngIf="data.text === 'Orders' || data.text === 'Your Cart'"
+        
       ></app-itemcount>
     </div>
   </div>

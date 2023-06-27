@@ -16,6 +16,10 @@ import { ItemcountComponent } from './itemcount/itemcount.component';
 import { ShowbuttonComponent } from './showbutton/showbutton.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { CartComponent } from './cart/cart.component';
+import { YourCartComponent } from './yourcart/your-cart.component';
+import { YourOrderComponent } from './yourorder/your-order.component';
+import { CartinfoComponent } from './cartinfo/cartinfo.component';
+import { OrderinfoComponent } from './orderinfo/orderinfo.component';
 
 const appRoute: Routes = [
   {
@@ -28,6 +32,8 @@ const appRoute: Routes = [
   { path: 'Dashboard', component: DashboardComponent },
   {path:'Checkout',component:CheckoutComponent},
   {path:'Cart',component:CartComponent},
+  {path:'YourCart',component:YourCartComponent},
+  {path:'YourOrder',component:YourOrderComponent},
 ];
 @NgModule({
   declarations: [
@@ -43,6 +49,11 @@ const appRoute: Routes = [
     ShowbuttonComponent,
     CheckoutComponent,
     CartComponent,
+    YourCartComponent,
+    YourOrderComponent,
+    CartinfoComponent,
+    OrderinfoComponent,
+    
     
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(appRoute)],

@@ -1,0 +1,48 @@
+.your-order
+{
+    width: 50%;
+    height: auto;
+    /* border: 1px solid black; */
+    padding:30px;
+    float: right;
+}
+table
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 20px;
+}
+table,th,td
+{
+    /* border: 1px solid black; */
+    /* border-collapse: collapse; */
+}
+th{
+    height: 30px;
+   display: flex;
+   justify-content: left;
+   padding-left: 0px;
+}
+#heading-one
+{
+    width: 50%;
+}
+#heading-two
+{
+    width: 10%;
+}
+#heading-three
+{
+    width: 20%;
+}
+#heading-four
+{
+    width: 20%;
+}
+
+.your-order-total
+{
+    float: right;
+}
+

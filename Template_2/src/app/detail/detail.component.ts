@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
 })
 export class DetailComponent {
   @Input() dish: any;
+  // id=this.dish.id;
   constructor(private router: Router) {}
   navigateToCart()
   {

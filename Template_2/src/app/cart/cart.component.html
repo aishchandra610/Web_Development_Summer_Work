@@ -2,14 +2,25 @@
   <div class="cart-box">
     <div class="cart-box-main">
       <div class="cart-box-img">
-        <div class="cart-box-img-section">
-        <img src="assets/images/bon-vivant-qom5MPOER-I-unsplash 5.jpg" alt="" />
-    </div>
+        <img src="assets/images/dish-image1.png" alt="" />
       </div>
-      <div>food nae</div>
-      <div>text</div>
-      <div>detail</div>
-      <div>button n quanity</div>
+      <div class="cart-heading"><b>starhghfh</b></div>
+      <div class="cart-text">
+        <p>paragraph</p>
+      </div>
+      <div class="cart-text-detail">
+        <div><b>NGN 2000.00</b></div>
+        <div><b>10-20 Mins</b></div>
+        <div><b>10 Pcs Avail</b></div>
+      </div>
+      <div class="cart-functionality">
+        <div class="quantity-button">
+          <div class="dec-button" (click)="decreaseValue()">-</div>
+          <div class="display-number">{{ count }}</div>
+          <div class="inc-button" (click)="increaseValue()">+</div>
+        </div>
+        <div class="cart-button" (click)="navigateToDashboard()">Add Cart</div>
+      </div>
     </div>
   </div>
 </div>

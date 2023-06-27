@@ -1,7 +1,15 @@
+<div class="checkout-main">
+  <div class="checkout-content-box">
+    
+    <div class="checkout">
+        <h2 class="checkout-heading">Checkout</h2>
+      <app-input
+        *ngFor="let text of textMessages"
+        [textMessage]="text"
+      ></app-input>
 
-<h2>Checkout</h2>
-<div class="checkout">
-    <app-input *ngFor="let text of textMessages" [textMessage]="text" ></app-input>
-
-    <app-button [buttonText]="buttonLabel"></app-button>
+      <app-button [buttonText]="buttonLabel"
+      (click)="navigateToDashboard()"></app-button>
+    </div>
+  </div>
 </div>

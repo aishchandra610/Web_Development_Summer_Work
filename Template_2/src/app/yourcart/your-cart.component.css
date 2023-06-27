@@ -1,0 +1,49 @@
+.your-cart
+{
+    width: 50%;
+    height: auto;
+    
+    padding: 20px;
+    float: right;
+}
+table
+{
+    display: flex;
+   justify-content: left;
+    align-items: center;
+}
+/* table,th,td
+{
+    border: 1px solid black;
+    
+} */
+th{
+    height: 30px;
+   
+}
+#heading-one
+{
+    width: 50%;
+}
+#heading-two
+{
+    width: 10%;
+}
+#heading-three
+{
+    width: 20%;
+}
+#heading-four
+{
+    width: 20%;
+}
+
+.your-cart-total
+{
+    float: right;
+}
+.your-cart-button
+{
+    /* display: flex;
+    justify-content: center; */
+}

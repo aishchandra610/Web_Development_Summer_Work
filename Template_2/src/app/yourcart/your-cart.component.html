@@ -1,0 +1,28 @@
+<div class="your-cart">
+  <div class="main-your-cart">
+    <div class="your-cart-heading">
+      <h2>Your Cart</h2>
+    </div>
+    <div class="your-cart-table">
+      <table>
+        <th id="heading-one">Item</th>
+        <th id="heading-two">Qty</th>
+        <th id="heading-three">Unit Price</th>
+        <th id="heading-four">Sub-Total</th>
+      </table>
+      <app-cartinfo></app-cartinfo>
+      <app-cartinfo></app-cartinfo>
+      <app-cartinfo></app-cartinfo>
+      <app-cartinfo></app-cartinfo>
+    </div>
+    <div class="your-cart-total">Total: &nbsp;<b>N30,000.00</b></div>
+    <div class="your-cart-button">
+        
+      <app-button
+        [buttonText]="button"
+        (click)="navigateToCheckout()"
+      ></app-button>
+    </div>
+  
+  </div>
+</div>
