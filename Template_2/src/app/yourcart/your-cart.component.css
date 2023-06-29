@@ -6,12 +6,12 @@
     padding: 20px;
     float: right;
 }
-table
+/* table
 {
     display: flex;
    justify-content: left;
     align-items: center;
-}
+} */
 /* table,th,td
 {
     border: 1px solid black;

@@ -5,15 +5,24 @@
     </div>
     <div class="asidebutton-text" ng-init="">
       {{ data.text }}
+     
     </div>
   </div>
   <div class="asidebutton-itemcount-box">
     <div class="asidebutton-itemcount">
       <app-itemcount
         [dataCount]="[data.itemOrder]"
-        *ngIf="data.text === 'Orders' || data.text === 'Your Cart'"
+        *ngIf="data.text === 'Orders'"
         
       ></app-itemcount>
+      <app-itemcount
+        [dataCount]="totalItem"
+        *ngIf="data.text === 'Your Cart'"
+        
+      ></app-itemcount>
+      <div>
+        {{totalItem}}hi
+      </div>
     </div>
   </div>
 </div>

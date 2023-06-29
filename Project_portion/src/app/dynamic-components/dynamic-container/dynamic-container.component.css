@@ -1,0 +1,37 @@
+.black-border
+{
+    border: 1px solid black;
+}
+:host{
+    display: block;
+    border: 1px solid black;
+    width: 500px;
+    height: 90vh;
+    margin: 1 rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    width: 50%;
+    margin: auto 0px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+ul li{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.display
+{
+    overflow-y: auto;
+    height: 400px;
+    width: 100%;
+    border-radius: 1 rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}

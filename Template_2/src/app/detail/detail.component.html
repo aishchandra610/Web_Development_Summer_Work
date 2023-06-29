@@ -14,7 +14,7 @@
       <div class="detail-info-cost">
         <b>{{ dish.price }}</b>
       </div>
-      <div class="detail-info-cart" (click)="navigateToCart()" >
+      <div class="detail-info-cart" (click)="navigateToCart(dish.id)">
 Add Cart      </div>
     </div>
   </div>

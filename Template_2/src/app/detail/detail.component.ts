@@ -9,8 +9,8 @@ export class DetailComponent {
   @Input() dish: any;
   // id=this.dish.id;
   constructor(private router: Router) {}
-  navigateToCart()
+  navigateToCart(id)
   {
-    this.router.navigate(['Cart']);
+    this.router.navigate(['Cart',{id:id}]);
   }
 }

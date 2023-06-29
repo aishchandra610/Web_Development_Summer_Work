@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./itemcount.component.css'],
 })
 export class ItemcountComponent {
-  @Input() dataCount: string;
+  @Input() dataCount:number;
 }
