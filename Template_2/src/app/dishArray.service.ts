@@ -3,6 +3,7 @@ import { BehaviorSubject } from 'rxjs';
 export class DishArrayService
 {
     cartArray:any[]=[];
+    cartlength=this.cartArray.length;
    dishArray:any[]= [
     {
       id:"1",

@@ -22,7 +22,8 @@ export class AsidebuttonComponent  implements OnInit {
     
     this.cartArray=this.disharrayservice.cartArray;
     this.totalItem=this.cartArray.length;
-    console.log(this.totalItem);
+    console.log(this.totalItem,this.cartArray);
+    
   }
   // datacount:number=this.cartArray.length;
 }
